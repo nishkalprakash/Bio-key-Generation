@@ -1,0 +1,7 @@
+Python >= 3.8 
+OpenCV >= 4.5.1 
+Numpy >= 1.19.2 
+Matplotlib >= 3.3.2 
+Scikit-learn >= 0.23.2 
+Scikit-image >= 0.17.2 
+Scipy >= 1.5.2 
