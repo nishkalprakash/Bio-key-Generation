@@ -1,4 +1,11 @@
-Image Files
+# Image Files
+data/**
 
-*.tif
 
+# Other FVC Files and Folders
+# Index Files
+*.MFA
+*.MFR
+Doc/
+Src/
+note.txt

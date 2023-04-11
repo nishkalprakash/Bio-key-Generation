@@ -1,40 +1,17 @@
 # # Main file that runs the entire pipeline
-# * Preprocessing
-# ** Vertically Align image
-# ** Enhance image
-# * Consistent Region Selection (CRS)
-# ** Selecting the region of interest (ROI) based on GLCM statistical feature descriptors
-# * Hybrid Feature Extraction - [Indirect Features (1024 bits), Texture feature 1 (hcbd || gcbd || ltp) (1024 bits), Texture feature 2 (1536 bits) (hcbd || gcbd || ltp || mtp))] 
-# ** Minutia Feature Extraction using Delaunay Triangulation (Indirect Features) (1024 bits)
-# ```
-# Indirect Feature Vector (Fv ) = 
-# [
-#   r_area(∀△ ∈TR) ∥
-#   r_length_of_sides(∀△i ∈TR) ∥
-#   r_angles_b/w_sides(∀△ ∈ TR) ∥
-#   r_incenter(∀△ ∈ TR) ∥
-#   r_position(∀ mi ∈ m) ∥
-#   r_orientation(∀ mi ∈ m)
-# ]
-# ```
-# TODO: ** Minutia Feature Extraction using Hough Transform (Direct Features)
-# ** Minutia Feature Extraction using Gabor Filter (Direct Features)
-# ** Texture Feature Extraction HCBD (256 bits), GCBD (256 bits), LTP (512 bits) and MTP (512 bits)
-# *** Hilbert curve-based descriptor (HCBD)
-# *** Gray code-based descriptor (GCBD)
-# *** Local ternary pattern (LTP)
-# *** Median ternary pattern (MTP)
-# * Prominent Feature Selection
-# ** Feature Selection using Genetic Algorithm
-# * Discriminant Feature Vector Generation
-# ** Metric learning based discriminant feature vector
-# *** Information Theoretic Metric Learning (ITML) technique
-# * Stable Key Generation
-
-
-
-
-
-
 
 #%% Importing the necessary libraries
+from lib.classes import DS
+
+#%% Initializing the dataset class
+ds1=DS()
+
+# %%
+ds1.get_one()
+# %%
+len(list(ds1.get_all()))
+# %%
+# ds1.set_ds('FVC2000_Db1_b')
+# %%
+ds1.current_ds
+# %%
