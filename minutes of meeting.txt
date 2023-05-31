@@ -1,0 +1,30 @@
+Hello,
+Please find attached the minutes of yesterday's meeting.
+
+Date: 12th April 2023
+
+Attendees:
+    Prof Debasis Samanta (MTP Guide)
+    Alka Ranjan (MTP mentor)
+    Nishkal Prakash (MTP mentor)
+    Nafees Shaik (MTP Student)
+
+Minutes:
+    Asked to make a report titled:
+    "Different Technique of Fingerprint Biometric based Feature Extraction and its Applications: A Survey"
+    [Deadline: 15th April 2023]
+    Regarding 
+    Regarding the MTP report and presentation, Nafees was instructed:
+        To omit basic details of biometrics and fingerprints as they are trivial.
+        The following topics should be included in the report:
+            1) a) Traditional Method of direct feature Extraction
+               b) Traditional Method of indirect feature Extraction
+            2) Advanced feature Extraction Techniques using Deep Learning
+            3) Applications of Fingerprint Biometrics
+        The report can be around 10 pages and should only include meaningful content.
+    
+
+-- 
+Thanking you.
+Yours Sincerely,
+Nishkal.
